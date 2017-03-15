@@ -12,3 +12,12 @@ function initMap() {
 
     });
 }
+
+$(".arrow").on("click", drop);
+
+function drop() {
+    console.log("menu drop down");
+    $(".arrowright").toggleClass("dropdownright");
+    $(".arrowleft").toggleClass("dropdownleft");
+    $(".dropmenu").slideToggle();
+}

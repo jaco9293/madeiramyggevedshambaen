@@ -52,3 +52,71 @@
      font-size: 200px;
      text-align: center;
  }
+ /* Navigation */
+
+ .arrow {
+     position: fixed;
+     left: 80vw;
+     top: 5vw;
+     width: 10vw;
+     height: 10vw;
+     background-color: grey;
+ }
+ .arrowleft {
+     position: absolute;
+     left: 2.5vw;
+     top: 2.5vw;
+     width: 4vw;
+     height: 0.5vw;
+     background-color: black;
+     transform: translate3d(6px, 6px, 0) rotate(-45deg);
+ }
+ .arrowright {
+     position: absolute;
+     top: 2.5vw;
+     width: 4vw;
+     height: 0.5vw;
+     background-color: black;
+     transform: translate3d(6px, 6px, 0) rotate(45deg);
+ }
+ .dropdownright {
+     animation-name: dropdownright;
+     /*animation-duration: 0.2s;*/
+     animation-fill-mode: forwards;
+     animation-iteration-count: 1;
+ }
+ @keyframes dropdownright {
+     to {
+         transform: translate3d(6px, 6px, 0) rotate(-45deg);
+     }
+ }
+ .dropdownleft {
+     animation-name: dropdownleft;
+     /*animation-duration: 0.2s;*/
+     animation-fill-mode: forwards;
+     animation-iteration-count: 1;
+ }
+ @keyframes dropdownleft {
+     to {
+         transform: translate3d(6px, 6px, 0) rotate(45deg);
+     }
+ }
+ .dropmenu {
+     position: fixed;
+     background-color: grey;
+     top: 15vw;
+     width: 90vw;
+     height: 10vw;
+     display: none;
+ }
+ .dropmenu a {
+     display: inline-block;
+     font-size: 3vw;
+ }
+ .showmenu {
+     display: block;
+     animation-name: showmenu;
+     animation-duration: 0.2s;
+     animation-fill-mode: forwards;
+     animation-iteration-count: 1;
+ }
