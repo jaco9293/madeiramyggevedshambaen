@@ -6,25 +6,49 @@
      height: 100%;
      margin: 0;
      padding: 0;
+     background-color: azure;
  }
  .h1_start {
-     font-family: 'pacifico';
-     font-size: 10vw;
+     font-family: 'roboto';
+     font-size: 8vw;
      text-align: center;
      line-height: 10vw;
-     font-weight: 100;
+     font-weight: 2000;
+     margin-top: 12vw;
  }
  .start_p {
-     font-family: 'catamaran';
+     font-family: 'roboto';
      font-size: 5vw;
      margin: 5vw;
-     margin-top: 10vw;
+     margin-top: 20vw;
+     text-align: center;
  }
  .knap {
-     color: white;
-     background-color: black;
+     color: black;
+     background-color: white;
      border: none;
-     height: 6vw;
-     width: 15vw;
-     font-size: 10vw;
+     height: 8vw;
+     width: 20vw;
+     font-size: 5vw;
+     text-align: center;
+     font-family: 'roboto';
+     border: solid 14px black;
+     border-radius: 5%;
+     position: absolute;
+     top: 110vw;
+     left: 39vw;
+ }
+ .start_logo {
+     width: 85vw;
+     margin-left: 7vw;
+     margin-top: 2vw;
+ }
+ .inputfelt {
+     height: 10vw;
+     width: 40vw;
+     position: absolute;
+     left: 28%;
+     top: 90vw;
+     font-size: 200px;
+     text-align: center;
  }
