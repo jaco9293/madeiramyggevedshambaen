@@ -1,5 +1,6 @@
  #map {
      height: 100%;
+     margin-top: 0vw;
  }
  html,
  body {
@@ -54,18 +55,25 @@
  }
  /* Navigation */
 
+ .circle {
+     width: 150px;
+     height: 150px;
+     -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+     border-radius: 100px;
+     background: lightgrey;
+ }
  .arrow {
      position: fixed;
      left: 80vw;
      top: 5vw;
      width: 10vw;
      height: 10vw;
-     background-color: grey;
  }
  .arrowleft {
      position: absolute;
-     left: 2.5vw;
-     top: 2.5vw;
+     left: 3.8vw;
+     top: 4vw;
      width: 4vw;
      height: 0.5vw;
      background-color: black;
@@ -73,7 +81,8 @@
  }
  .arrowright {
      position: absolute;
-     top: 2.5vw;
+     top: 4vw;
+     left: 1.1vw;
      width: 4vw;
      height: 0.5vw;
      background-color: black;
@@ -105,13 +114,19 @@
      position: fixed;
      background-color: grey;
      top: 15vw;
-     width: 90vw;
-     height: 10vw;
+     left: 61vw;
+     width: 40vw;
+     height: 38vw;
      display: none;
+     text-align: center;
  }
  .dropmenu a {
      display: inline-block;
-     font-size: 3vw;
+     font-size: 5vw;
+     font-family: 'roboto';
+     line-height: 9vw;
+     text-decoration: none;
+     color: white;
  }
  .showmenu {
      display: block;
