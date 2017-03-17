@@ -11,8 +11,9 @@
 
 <body>
 
-    <nav class="burgermenu"></nav>
 
+    <!-- MENU -->
+    <nav class="burgermenu"></nav>
     <div class="dropmenu">
         <a href="main.html">KORT</a>
         <br>
@@ -23,19 +24,32 @@
         <a href="start.html">START</a>
     </div>
 
+    <h1 class="quiz_overskrift">Quiz</h1>
+    <p class="quiz_tekst">Tryk på det korrekte svar. Svar kun på et spørgsmål af gangen!</p>
 
-    <div class="arrow ">
+    <div class="quiz_spm"></div>
+
+    <!-- TEMPLATE -->
+    <template id="quiz_template">
+        <div class="data_spoergsmaal">Det her er spørgsmålet som du skal svare på</div>
+        <div class="data_svar1">Det her er svarmulighed 1</div>
+        <div class="data_svar2">Det her er svarmulighed 2</div>
+        <div class="data_svar3">Det her er svarmulighed 3</div>
+    </template>
+
+
+    <div class="arrow">
         <div class="circle">
-            <div class="arrowleft "></div>
-            <div class="arrowright "></div>
+            <div class="arrowleft"></div>
+            <div class="arrowright"></div>
         </div>
     </div>
 
 
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaYXwV9dzjWMwTcjPAcu0STHT_0z6quu8&callback=initMap" async defer></script>
+    <script src="quiz.js"></script>
+
 </body>
 
 </html>

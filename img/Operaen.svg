@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="763.65" height="169.9" viewBox="0 0 763.65 169.9">
+  <title>Operaen</title>
+  <g id="Lag_2" data-name="Lag 2">
+    <g id="Lag_1-2" data-name="Lag 1">
+      <rect x="324.55" y="80.75" width="341.86" height="89.08" fill="#939393"/>
+      <rect x="360.41" width="140.76" height="56.48" fill="#606163"/>
+      <polygon points="337.1 22.41 360.41 0 360.41 56.48 337.1 56.48 337.1 22.41" fill="#adadad"/>
+      <path d="M139.6,73.6s-41.88,93.28,23.58,96.23c70.06,3.16,3.3-100.48,3.3-100.48Z" fill="#6794a0"/>
+      <path d="M324.55,169.83H163.17s-34-26.72-8.07-89.08,169.45,0,169.45,0Z" fill="#9bc0d3"/>
+      <path d="M0,34.07,52.41,80.68h614.1L763.65,46.4S181.64,25.1,0,34.07Z" fill="#b5c6bd"/>
+    </g>
+  </g>
+</svg>

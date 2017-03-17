@@ -1,0 +1,22 @@
+[{
+    "svar1": "Danmark",
+    "svar2": "Sverige",
+    "svar3": "Rusland",
+    "spoergsmaal": "Hvor ligger Holmen?"
+}, {
+    "svar1": "Ja",
+    "svar2": "Jep",
+    "svar3": "Leeeet's go",
+    "spoergsmaal": "Er holmen fedt?"
+
+}, {
+    "svar1": "40kr",
+    "svar2": "69kr",
+    "svar3": "83kr",
+    "spoergsmaal": "Hvad koster big tasy bacon på MCD?"
+}, {
+    "svar1": "Ost og bacon",
+    "svar2": "Ost og skinke",
+    "svar3": "Lækkert?",
+    "spoergsmaal": "Hvad skal der i en toast?"
+}]
