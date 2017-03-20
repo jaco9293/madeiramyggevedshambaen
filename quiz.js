@@ -36,3 +36,5 @@ function drop() {
     $(".arrowleft").toggleClass("dropdownleft");
     $(".dropmenu").slideToggle();
 }
+
+document.getElementById("result").innerHTML = "Hold 4 har " + localStorage.clickcount + " point";

@@ -6,11 +6,11 @@
             "lng": 12.594271
         },
         "id": "skuespilhuset",
-        "svar1": "Danmark",
-        "svar2": "Sverige",
-        "svar3": "Rusland",
-        "sporgsmal": "Hvor ligger skuespilhuset?",
-        "korrekt": "1"
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": ""
 
 
 }, {
@@ -21,12 +21,13 @@
             "lat": 55.681922,
             "lng": 12.600600
         },
-        "id": "operaen",
-        "svar1": "1) Ja",
-        "svar2": "2) Jep",
-        "svar3": "3) Leeeet's go",
-        "sporgsmal": "Er operaen fedt? Tryk på det rigtige svar!",
-        "korrekt": "1"
+
+        "svar1": "1) Arnold Mærsk Mc-Kinney Møller",
+        "svar2": "2) Kjeld Kirk Kristiansen",
+        "svar3": "3) Dronning Magrethe",
+        "sporgsmal": "<h3>Hvem donerede operahuset til Danmark?</h3>",
+        "korrekt": "1",
+        "id": "operaen"
 
 
 }, {
@@ -38,67 +39,70 @@
             "lng": 12.605985
         },
         "id": "takkeladsvej",
-        "svar1": "40kr",
-        "svar2": "69kr",
-        "svar3": "83kr",
-        "sporgsmal": "<h1>Hvad koster big tasy bacon på Takkeladsvej?</h1>",
-        "korrekt": "3"
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": ""
 
 
 }, {
         "navn": "Batteriet Sixtus",
-        "beskrivelse": "Batteri Sixtus er fredet som fortidsminde og for de fleste danskere mest kendt som det salutbatteri, der står for salutering ved særlige officielle lejligheder. Det var også herfra, den daværende Kronprins Frederik 2. april 1801 på tæt hold kunne følge begivenhederne under skærtorsdagens blodige slag på Københavns Red.Fæstningsanlægget, som udgør spidsen af Holmen, skyder sig som den yderste forpost ud i Københavns havn og er med sine langstrakte græsklædte volde, store gamle lindetræer og tilhuggede kvaderstens mure et smukt og malerisk anlæg.",
+
         "billede": "batterietsixtus",
         "position": {
             "lat": 55.689137,
             "lng": 12.605807
         },
         "id": "batterietsixtus",
-        "svar1": "Ost og bacon",
-        "svar2": "Ost og skinke",
-        "svar3": "Lækkert?",
-        "sporgsmal": "Hvad skal der i en toast?",
-        "korrekt": "1"
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": ""
 }, {
         "navn": "Mastekranen",
-        "beskrivelse": "Mastekranen er bygget i 1749. Arkitekten var Philip de Lange, som i sin levetid nåede at bygge en del bygninger for flåden, hvoraf mange stadig findes i dag. Kranen fungerede på en tid, hvor man ikke rådede over moderne motorkraft. Derfor klarede man sig med ”hånd og magt”. På hver side af kranen var der opstillet et par gangspil, hvor Holmens mandskab med de bare næver drev kranspillet rundt.",
         "billede": "mastekranen",
         "position": {
             "lat": 55.688167,
             "lng": 12.605921
         },
         "id": "mastekranen",
-        "svar1": "Ost og bacon",
-        "svar2": "Ost og skinke",
-        "svar3": "Lækkert?",
-        "sporgsmal": "Hvad skal der i en toast?",
-        "korrekt": "1"
+        "svar1": "1800-tallet",
+        "svar2": "1700-tallet",
+        "svar3": "1600-tallet",
+        "sporgsmal": "Hvornår blev kranen bygget?",
+        "korrekt": "2"
 
 },
     {
         "navn": "Nyholms Hovedvagt",
-        "billede": "Bygningen blev opført i 1745 lige ud for indsejlingen til Københavns havn. Hovedvagten var hjemsted for Holmens vagtstyrke og rummede derfor vagtstue, mønstrings lokale, arrest og andre rum til praktiske gøremål som fx renholdelse af Holmens mange lanterner. På den måde var Hovedvagten en brugsbygning. Alligevel er der tale om en lille pragtbygning opført i fineste barokstil.",
+        "billede": "nyholmshovedvagt",
         "position": {
             "lat": 55.688828,
             "lng": 12.606191
         },
         "id": "hovedvagten",
-        "svar1": "Ost og bacon",
-        "svar2": "Ost og skinke",
-        "svar3": "Lækkert?",
-        "sporgsmal": "Hvad skal der i en toast?",
-        "korrekt": "1"
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": ""
 
 
 
 }, {
         "navn": "Statuen",
         "billede": "schroedersee",
-        "beskrivelse": "Søofficer ved mindestøtten på Batteriet Sixtus for kaptajns Schrødersee, der faldt ombord på orlogsskibet Indfødsretten 2. April 1801.",
         "position": {
             "lat": 55.689263,
             "lng": 12.606722
         },
+        "svar1": "Druknede",
+        "svar2": "Brændte ihjel",
+        "svar3": "Kanonkugle",
+        "sporgsmal": "Hvordan døde Schrødersee?",
+        "korrekt": "3",
         "id": "statuen"
 
 
@@ -106,7 +110,6 @@
 }, {
         "navn": "Spanteloftvej",
         "billede": "spanteloftsbygningen",
-        "beskrivelse": "Spanteloftsbygningen fra 1742 strækker langs den nordlige ende af Søminegraven. Her blev skabeloner til skibenes spanter fremstillet – hvilket krævede et stort frit gulvareal. Det første orlogsværft lå ret foran bygningen, hvor der nu er græs mellem Søværnets Officersskole og Planbygningen (Marsmarken). Lige uden for den nordlige ende af Spanteloftsbygningen ses en stopbom fra en af de gamle beddinger, der lå, hvor nu Marsmarken ligger.I den nederste etage opbevarede man flådens chalupper.",
         "position": {
             "lat": 55.687229,
             "lng": 12.607527
@@ -118,8 +121,6 @@
     {
         "navn": "Rytmisk Musikkonservatorium",
         "billede": "rytmiske",
-        "beskrivelse": "Konservatoriet blev oprettet i 1986 og havde oprindeligt til huse på Frederiksberg, men har siden 1996 været placeret på den tidligere Flådestation Holmens område sammen med Statens Teaterskole, Den Danske Filmskole og Kunstakademiets Arkitektskole.",
-
         "position": {
             "lat": 55.682652,
             "lng": 12.606270
@@ -130,7 +131,6 @@
 }, {
         "navn": "Kanonbådsvej",
         "billede": "kanonbaadsskure",
-        "beskrivelse": "De blev oprindeligt opført i 1813 af Sø-Etaten til at huse de kanonbåde – store robåde – man byggede, efter at den danske flådes skibe var blevet bortført af englænderne. Bådene gav navn til kanonbådskrigen. Da man ønskede at kunne trække bådene op på land, havde man således behov for nogle skure til disse. Først i 1850 var man færdig med at opføre alle skurene.",
         "position": {
             "lat": 55.679236,
             "lng": 12.606193
@@ -141,11 +141,15 @@
 }, {
         "navn": "Kuglegården",
         "billede": "kuglegaarden",
-        "beskrivelse": "Her holder Forsvarskommandoen siden juli 2006 til. Området er normalt lukket for offentligheden, men bygningerne ud mod kanalen er det oprindelige Arsenal fra 1770. Kuglegårdens nordlige sidebygning var oprindeligt proviantmagasin, og her fandtes tidligere de store saltkar, som blev brugt til at salte det kød, som skibene fik med som proviant.",
         "position": {
             "lat": 55.678533,
             "lng": 12.600755
         },
+        "svar1": "Arsenaløen",
+        "svar2": "Dokøen",
+        "svar3": "Nyholm",
+        "sporgsmal": "Hvor ligger Kuglegården?",
+        "korrekt": "1",
         "id": "kuglegarden"
 
 
