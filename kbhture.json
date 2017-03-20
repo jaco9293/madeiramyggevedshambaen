@@ -5,18 +5,28 @@
             "lat": 55.679126,
             "lng": 12.594271
         },
-        "id": "skuespilhuset"
+        "id": "skuespilhuset",
+        "svar1": "Danmark",
+        "svar2": "Sverige",
+        "svar3": "Rusland",
+        "sporgsmal": "Hvor ligger skuespilhuset?",
+        "korrekt": "1"
 
 
 }, {
         "navn": "Operaen",
-        "beskrivelse": "Operaen på Holmen i København er Danmarks nationalopera. Den blev indviet af dronningen den 15. januar 2005. Den er tegnet af arkitekt Henning Larsen og har Mærsk Mc-Kinney Møller som initiativtager og bygherre.",
+
         "billede": "operaen",
         "position": {
             "lat": 55.681922,
             "lng": 12.600600
         },
-        "id": "operaen"
+        "id": "operaen",
+        "svar1": "1) Ja",
+        "svar2": "2) Jep",
+        "svar3": "3) Leeeet's go",
+        "sporgsmal": "Er operaen fedt? Tryk på det rigtige svar!",
+        "korrekt": "1"
 
 
 }, {
@@ -27,7 +37,12 @@
             "lat": 55.685526,
             "lng": 12.605985
         },
-        "id": "takkeladsvej"
+        "id": "takkeladsvej",
+        "svar1": "40kr",
+        "svar2": "69kr",
+        "svar3": "83kr",
+        "sporgsmal": "<h1>Hvad koster big tasy bacon på Takkeladsvej?</h1>",
+        "korrekt": "3"
 
 
 }, {
@@ -38,7 +53,12 @@
             "lat": 55.689137,
             "lng": 12.605807
         },
-        "id": "batterietsixtus"
+        "id": "batterietsixtus",
+        "svar1": "Ost og bacon",
+        "svar2": "Ost og skinke",
+        "svar3": "Lækkert?",
+        "sporgsmal": "Hvad skal der i en toast?",
+        "korrekt": "1"
 }, {
         "navn": "Mastekranen",
         "beskrivelse": "Mastekranen er bygget i 1749. Arkitekten var Philip de Lange, som i sin levetid nåede at bygge en del bygninger for flåden, hvoraf mange stadig findes i dag. Kranen fungerede på en tid, hvor man ikke rådede over moderne motorkraft. Derfor klarede man sig med ”hånd og magt”. På hver side af kranen var der opstillet et par gangspil, hvor Holmens mandskab med de bare næver drev kranspillet rundt.",
@@ -47,8 +67,12 @@
             "lat": 55.688167,
             "lng": 12.605921
         },
-        "id": "mastekranen"
-
+        "id": "mastekranen",
+        "svar1": "Ost og bacon",
+        "svar2": "Ost og skinke",
+        "svar3": "Lækkert?",
+        "sporgsmal": "Hvad skal der i en toast?",
+        "korrekt": "1"
 
 },
     {
@@ -58,7 +82,12 @@
             "lat": 55.688828,
             "lng": 12.606191
         },
-        "id": "hovedvagten"
+        "id": "hovedvagten",
+        "svar1": "Ost og bacon",
+        "svar2": "Ost og skinke",
+        "svar3": "Lækkert?",
+        "sporgsmal": "Hvad skal der i en toast?",
+        "korrekt": "1"
 
 
 
@@ -71,6 +100,7 @@
             "lng": 12.606722
         },
         "id": "statuen"
+
 
 
 }, {

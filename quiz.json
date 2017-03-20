@@ -2,7 +2,8 @@
     "svar1": "Danmark",
     "svar2": "Sverige",
     "svar3": "Rusland",
-    "spoergsmaal": "Hvor ligger Holmen?"
+    "spoergsmaal": "Hvor ligger Holmen?",
+    "korrekt": 1,
 }, {
     "svar1": "Ja",
     "svar2": "Jep",

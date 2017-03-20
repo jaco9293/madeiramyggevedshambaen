@@ -1,7 +1,7 @@
 var jsonData;
 
 // Hent JSON
-$.getJSON("quiz.json", visQuizListe);
+$.getJSON("kbhture.json", visQuizListe);
 
 //Opdel liste
 function visQuizListe(infoOmQuiz) {
@@ -16,20 +16,19 @@ function visQuizListe(infoOmQuiz) {
 function visQuiz(data) {
 
     //Indsæt data i klon
-    var klon = document.querySelector("#quiz_template").content.cloneNode(true);
+    //var klon = document.querySelector("#quiz_template").content.cloneNode(true);
 
-    klon.querySelector(".data_svar1").innerHTML = data.svar1;
-    klon.querySelector(".data_svar2").innerHTML = data.svar2;
-    klon.querySelector(".data_svar3").innerHTML = data.svar3;
-    klon.querySelector(".data_spoergsmaal").innerHTML = data.spoergsmaal;
+    //klon.querySelector(".data_svar1").innerHTML = data.svar1;
+    //klon.querySelector(".data_svar2").innerHTML = data.svar2;
+    //klon.querySelector(".data_svar3").innerHTML = data.svar3;
+    //klon.querySelector(".data_spoergsmaal").innerHTML = data.spoergsmaal;
 
-    document.querySelector(".quiz_spm").appendChild(klon);
+    //document.querySelector(".quiz_spm").appendChild(klon);
 
 }
 
-
 // Menu
-$(".arrow").on("click", drop);
+$(".arrow1").on("click", drop);
 
 function drop() {
     console.log("menu drop down");

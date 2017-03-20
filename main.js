@@ -1,7 +1,14 @@
+window.onload = function initMap() {}
+
 // initMap
 
 var map;
 
+var data_korrekt = document.querySelector(".data_korrekt");
+var data_svar1 = document.querySelector(".data_svar1");
+var data_svar2 = document.querySelector(".data_svar2");
+var data_svar3 = document.querySelector(".data_svar3");
+var targetDiv = document.getElementById("result");
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -11,6 +18,20 @@ function initMap() {
         },
         zoom: 17
     });
+
+    var bounds = {
+        north: 55.69412309457315,
+        south: 55.669984433006424,
+        east: 12.62700028771994,
+        west: 12.575857070178244
+
+
+
+    }
+
+
+    var overlay = new google.maps.GroundOverlay('img/overlayholmen-01.svg', bounds);
+    overlay.setMap(map);
 
 
     // watch Position
@@ -51,41 +72,103 @@ function initMap() {
 
         var infowindow = new google.maps.InfoWindow({});
         marker.addListener('click', function () {
+            var klon = document.querySelector("#my_template").content.cloneNode(true);
+
+            klon.querySelector(".data_overskrift").innerHTML = sted.navn;
+            klon.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
+            klon.querySelector(".data_billede").src = "img/" + sted.billede + ".jpg";
+            klon.querySelector(".data_svar1").innerHTML = sted.svar1;
+            klon.querySelector(".data_svar2").innerHTML = sted.svar2;
+            klon.querySelector(".data_svar3").innerHTML = sted.svar3;
+            klon.querySelector(".data_sporgsmal").innerHTML = sted.sporgsmal;
+
             infowindow.open(map, marker);
             infowindow.setContent(klon);
 
+            // TRYKKER PÅ SVAR
+            document.querySelector(".data_svar1").addEventListener("click", svar_1Valgt);
+            document.querySelector(".data_svar2").addEventListener("click", svar_2Valgt);
+            document.querySelector(".data_svar3").addEventListener("click", svar_3Valgt);
 
         });
-        var klon = document.querySelector("#my_template").content.cloneNode(true);
 
-        klon.querySelector(".data_overskrift").innerHTML = sted.navn;
-        klon.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
-        klon.querySelector(".data_billede").src = "img/" + sted.billede + ".jpg";
+        // ER SVARET RIGTIGT
+        function svar_1Valgt() {
+            if (sted.korrekt == "1") {
+                //console.log("ja tak");
 
 
-        console.log(sted.position);
+                document.querySelector(".data_sporgsmal").innerHTML = "Du svarede RIGTIGT!";
+
+
+                if (typeof (Storage) !== "undefined") {
+                    if (localStorage.clickcount) {
+                        localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                    } else {
+                        localStorage.clickcount = 1;
+                    }
+
+                } else {
+                    console.log("æv");
+                    document.querySelector(".data_sporgsmal").innerHTML = "Du svarede FORKERT!";
+                }
+            }
+
+            function svar_2Valgt() {
+                if (sted.korrekt == "2") {
+                    console.log("ja tak");
+                    document.querySelector(".data_sporgsmal").innerHTML = "Du svarede RIGTIGT!";
+
+
+                } else {
+                    console.log("æv");
+                    document.querySelector(".data_sporgsmal").innerHTML = "Du svarede FORKERT!";
+                }
+
+            }
+
+            function svar_3Valgt() {
+                if (sted.korrekt == "3") {
+                    console.log("ja tak");
+                    document.querySelector(".data_sporgsmal").innerHTML = "Du svarede RIGTIGT!";
+
+
+                } else {
+                    console.log("æv");
+                    document.querySelector(".data_sporgsmal").innerHTML = "Du svarede FORKERT!";
+                }
+            }
+
+            console.log(sted.position);
+
+        }
+
+        // infowindow
+
+        // var klon = document.querySelector("#my_template").content.cloneNode(true);
+
+        //klon.querySelector(".data_overskrift").innerHTML = sted.navn;
+        //klon.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
+        //klon.querySelector(".data_billede").src = "img/" + sted.billede + ".jpg";
+
+
+        //console.log(sted.position);
 
     }
 
-    // infowindow
+    // Menu
+    $(".arrow").on("click", drop);
 
-    // var klon = document.querySelector("#my_template").content.cloneNode(true);
+    function drop() {
+        console.log("menu drop down");
+        $(".arrowright").toggleClass("dropdownright");
+        $(".arrowleft").toggleClass("dropdownleft");
+        $(".dropmenu").slideToggle();
+    }
 
-    //klon.querySelector(".data_overskrift").innerHTML = sted.navn;
-    //klon.querySelector(".data_beskrivelse").innerHTML = sted.beskrivelse;
-    //klon.querySelector(".data_billede").src = "img/" + sted.billede + ".jpg";
+    //document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
 
 
-    //console.log(sted.position);
+    targetDiv.innerHTML = "Goodbye world!";
 
-}
-
-// Menu
-$(".arrow").on("click", drop);
-
-function drop() {
-    console.log("menu drop down");
-    $(".arrowright").toggleClass("dropdownright");
-    $(".arrowleft").toggleClass("dropdownleft");
-    $(".dropmenu").slideToggle();
 }
