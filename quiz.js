@@ -38,3 +38,50 @@ function drop() {
 }
 
 document.getElementById("result").innerHTML = "Hold 4 har " + localStorage.clickcount + " point";
+
+// Menu
+$(".menu_icon").on("click", topmove);
+$(".menu_icon").on("click", botmove);
+
+function drop() {
+    console.log("menu drop down");
+
+
+}
+
+function topmove() {
+    //console.log("topmove");
+    //   e.classList.toggle("top");
+
+    $(".dropmenu").slideToggle();
+
+    if ($(".topline").hasClass("top") == false) {
+        $(".topline").addClass("top");
+        $(".topline").removeClass("top-reverse");
+    } else {
+
+        //
+        $(".topline").removeClass("top");
+        $(".topline").addClass("top-reverse");
+    }
+
+}
+
+
+function botmove() {
+    //console.log("botmove");
+    //   e.classList.toggle("top");
+
+
+
+    if ($(".botline").hasClass("bot") == false) {
+        $(".botline").addClass("bot");
+        $(".botline").removeClass("bot-reverse");
+    } else {
+
+        //
+        $(".botline").removeClass("bot");
+        $(".botline").addClass("bot-reverse");
+    }
+
+}

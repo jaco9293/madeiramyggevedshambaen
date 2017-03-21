@@ -60,6 +60,7 @@
         "svar3": "",
         "sporgsmal": "",
         "korrekt": ""
+
 }, {
         "navn": "Mastekranen",
         "billede": "mastekranen",
@@ -114,6 +115,11 @@
             "lat": 55.687229,
             "lng": 12.607527
         },
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": "",
         "id": "spanteloftvej"
 
 
@@ -125,6 +131,11 @@
             "lat": 55.682652,
             "lng": 12.606270
         },
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": "",
         "id": "musikkonservatorium"
 
 
@@ -135,6 +146,11 @@
             "lat": 55.679236,
             "lng": 12.606193
         },
+        "svar1": "",
+        "svar2": "",
+        "svar3": "",
+        "sporgsmal": "",
+        "korrekt": "",
         "id": "kanonbadsvej"
 
 

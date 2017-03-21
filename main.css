@@ -1,5 +1,5 @@
  #map {
-     height: 90%;
+     height: 98%;
      margin-top: 0vw;
  }
  html,
@@ -7,7 +7,7 @@
      height: 100%;
      margin: 0;
      padding: 0;
-     background-color: azure;
+     background-color: #e8e7e7;
  }
  body img {
      height: 200px;
@@ -16,47 +16,169 @@
 
  .h1_start {
      font-family: 'roboto';
-     font-size: 8vw;
+     font-size: 5vw;
      text-align: center;
      line-height: 10vw;
      font-weight: 2000;
      margin-top: 12vw;
+     color: #343434;
  }
  .start_p {
      font-family: 'roboto';
-     font-size: 5vw;
+     font-size: 3.5vw;
+     height: 5vw;
      margin: 5vw;
-     margin-top: 20vw;
+     margin-top: 5vw;
      text-align: center;
+     color: #343434;
+     border-radius: 5%;
+ }
+ .noEntry {
+     position: absolute;
+     font-family: 'roboto';
+     font-size: 3.5vw;
+     margin-left: 17.5vw;
+     top: 95vw;
  }
  .knap {
      color: black;
      background-color: white;
-     border: none;
-     height: 8vw;
+     height: 13vw;
      width: 20vw;
-     font-size: 5vw;
+     font-size: 4vw;
      text-align: center;
      font-family: 'roboto';
-     border: solid 14px black;
+     border: solid 1px;
      border-radius: 5%;
      position: absolute;
      top: 110vw;
-     left: 39vw;
+     left: 40vw;
+     background-color: #80c574;
+     color: #343434;
+     border: solid 1px #e8e7e7;
+ }
+ .knap:active {
+     background-color: #e8e7e7;
+     color: #80c574;
+     border: solid 1px #80c574;
  }
  .start_logo {
      width: 85vw;
      margin-left: 7vw;
-     margin-top: 2vw;
+     margin-top: -10vw;
  }
  .inputfelt {
      height: 10vw;
-     width: 40vw;
+     width: 30vw;
      position: absolute;
-     left: 28%;
-     top: 90vw;
-     font-size: 200px;
+     background-color: #e8e7e7;
+     left: 35vw;
+     top: 80vw;
+     color: #343434;
+     font-size: 10vw;
      text-align: center;
+     border: solid 1px #343434;
+ }
+ .inputfelt:focus {
+     width: 40vw;
+     height: 15vw;
+     left: 30vw;
+ }
+ /* FOOTPRINT ANIMATION STARTSIDE */
+
+ .footprint_left {
+     position: absolute;
+     height: 50px;
+     width: 15vw;
+     bottom: 10vw;
+     left: -15vw;
+     animation-name: footleft;
+     animation-duration: 10s;
+     animation-delay: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: steps(1);
+ }
+ @keyframes footleft {
+     0% {
+         left: -5vw;
+     }
+     10% {
+         left: 8vw;
+     }
+     20% {
+         left: 21vw;
+     }
+     30% {
+         left: 34vw;
+     }
+     40% {
+         left: 47vw;
+     }
+     50% {
+         left: 60vw;
+     }
+     60% {
+         left: 73vw;
+     }
+     70% {
+         left: 86vw;
+     }
+     80% {
+         left: 99vw;
+     }
+     90% {
+         left: 112vw;
+     }
+     100% {
+         left: 125vw;
+     }
+ }
+ .footprint_right {
+     position: absolute;
+     height: 50px;
+     bottom: 0vw;
+     left: -15vw;
+     width: 15vw;
+     animation-name: footright;
+     animation-duration: 10s;
+     animation-delay: 1.5s;
+     animation-iteration-count: infinite;
+     animation-timing-function: steps(1);
+ }
+ @keyframes footright {
+     0% {
+         left: 1.5vw;
+     }
+     10% {
+         left: 14.5vw;
+     }
+     20% {
+         left: 27.5vw;
+     }
+     30% {
+         left: 40.5vw;
+     }
+     40% {
+         left: 53.5vw;
+     }
+     50% {
+         left: 66.5vw;
+     }
+     60% {
+         left: 79.5vw;
+     }
+     70% {
+         left: 92.5vw;
+     }
+     80% {
+         left: 105.5vw;
+     }
+     90% {
+         left: 118.5vw;
+     }
+     100% {
+         left: 131.5vw;
+     }
  }
  /* QUIZ SIDE */
 
@@ -98,6 +220,35 @@
  }
  /* Navigation */
 
+ .green_background {
+     position: absolute;
+     height: 100vw;
+     width: 100vw;
+     left: 0;
+     top: 20vw;
+     z-index: 1;
+ }
+ .dropmenu .fb {
+     position: absolute;
+     top: 140vw;
+     left: 43vw;
+     width: 15vw;
+     height: 15vw;
+ }
+ .dropmenu .insta {
+     position: absolute;
+     top: 140vw;
+     left: 20vw;
+     width: 15vw;
+     height: 15vw;
+ }
+ .dropmenu .mail {
+     position: absolute;
+     top: 140vw;
+     left: 65vw;
+     width: 15vw;
+     height: 15vw;
+ }
  .menu_icon {
      position: absolute;
      top: 8vw;
@@ -171,19 +322,24 @@
      position: absolute;
      background-color: #e8e7e7;
      top: 0;
-     /*left: 61vw;*/
+     /* left: 61vw; */
      width: 100%;
-     height: 140%;
+     height: 100%;
      display: none;
      text-align: center;
+     background-image: url(img/green1.svg);
+     background-repeat: no-repeat;
+     background-position-y: 42%;
  }
  .dropmenu a {
      display: inline-block;
-     font-size: 5vw;
+     font-size: 7vw;
      font-family: 'roboto';
-     line-height: 9vw;
+     line-height: 0vw;
      text-decoration: none;
      color: black;
+     margin-top: 33vw;
+     z-index: 2;
  }
  .showmenu {
      display: block;
