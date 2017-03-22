@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="315.42" height="468.12" viewBox="0 0 315.42 468.12">
+  <title>mastekran_ikon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Lag_1" data-name="Lag 1">
+      <polygon points="113.82 252.31 155.03 222.33 160.28 468.12 119.71 468.12 113.82 252.31" fill="#dbbf95"/>
+      <polyline points="153.02 222.33 311.13 228.33 314.13 468.12 160.28 468.12" fill="#b7a68a"/>
+      <line x1="4.05" y1="6.29" x2="128.58" y2="232.47" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="3.76" y1="2.48" x2="144.51" y2="215.74" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="5.39" y1="3.6" x2="132.6" y2="236.29" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="12.88" y1="17.31" x2="221.26" y2="84.09" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="95.4" y1="174.18" x2="122.75" y2="51.7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="48.17" y1="72.11" x2="207.98" y2="127.6" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="59.46" y1="106.93" x2="208.99" y2="139.15" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="89.11" y1="132.35" x2="209.49" y2="166.84" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="143" y1="214.24" x2="203.65" y2="77.42" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="163.29" y1="202.62" x2="208.17" y2="78.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="266.52" y1="203.88" x2="208.17" y2="78.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="241.86" y1="197.56" x2="208.17" y2="78.93" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <line x1="203.44" y1="59.3" x2="207.29" y2="188.08" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="9"/>
+      <path d="M226.47,187.86s45.71,3.75,59.2,15.74c0,0,14.77,24.57,29.76,21.89v4.28l-162.4-4-39.21,26.55-4.24-2.73s44.7-53.53,71.74-59.42C181.32,190.16,206.3,187.18,226.47,187.86Z" fill="#444f41"/>
+      <path d="M217.59,468.12V432s16.69-20.83,37.53,0v36.11Z" fill="#444f41"/>
+    </g>
+  </g>
+</svg>

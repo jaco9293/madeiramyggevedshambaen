@@ -3,6 +3,7 @@ window.onload = function initMap() {}
 // initMap
 
 var map;
+var image;
 
 var data_korrekt = document.querySelector(".data_korrekt");
 var data_svar1 = document.querySelector(".data_svar1");
@@ -16,7 +17,7 @@ function initMap() {
             lat: 55.679052,
             lng: 12.598767
         },
-        zoom: 17
+        zoom: 15
     });
 
     var bounds = {
@@ -63,9 +64,14 @@ function initMap() {
     //Lav klon
     function visSteder(sted) {
 
+
         var marker = new google.maps.Marker({
             position: sted.position,
             map: map,
+            icon: {
+                scaledSize: new google.maps.Size(55, 55),
+                url: sted.icon
+            },
             title: sted.navn,
         });
 

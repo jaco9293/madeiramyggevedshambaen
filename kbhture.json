@@ -6,6 +6,7 @@
             "lng": 12.594271
         },
         "id": "skuespilhuset",
+        "icon": "img/Operaen.svg",
         "svar1": "",
         "svar2": "",
         "svar3": "",
@@ -21,7 +22,7 @@
             "lat": 55.681922,
             "lng": 12.600600
         },
-
+        "icon": "img/Operaen.svg",
         "svar1": "1) Arnold Mærsk Mc-Kinney Møller",
         "svar2": "2) Kjeld Kirk Kristiansen",
         "svar3": "3) Dronning Magrethe",
@@ -38,6 +39,7 @@
             "lat": 55.685526,
             "lng": 12.605985
         },
+        "icon": "img/takkeladsvej_ikon.svg",
         "id": "takkeladsvej",
         "svar1": "",
         "svar2": "",
@@ -54,6 +56,7 @@
             "lat": 55.689137,
             "lng": 12.605807
         },
+        "icon": "img/kanon_ikon.svg",
         "id": "batterietsixtus",
         "svar1": "",
         "svar2": "",
@@ -68,6 +71,7 @@
             "lat": 55.688167,
             "lng": 12.605921
         },
+        "icon": "img/mastekran_ikon.svg",
         "id": "mastekranen",
         "svar1": "1800-tallet",
         "svar2": "1700-tallet",
@@ -83,6 +87,7 @@
             "lat": 55.688828,
             "lng": 12.606191
         },
+        "icon": "img/Hovedvagten_ikon.svg",
         "id": "hovedvagten",
         "svar1": "",
         "svar2": "",
@@ -99,6 +104,7 @@
             "lat": 55.689263,
             "lng": 12.606722
         },
+        "icon": "img/mindesoejle_icon.svg",
         "svar1": "Druknede",
         "svar2": "Brændte ihjel",
         "svar3": "Kanonkugle",
@@ -115,6 +121,7 @@
             "lat": 55.687229,
             "lng": 12.607527
         },
+        "icon": "img/spanteloftvej_ikon.svg",
         "svar1": "",
         "svar2": "",
         "svar3": "",
@@ -131,6 +138,7 @@
             "lat": 55.682652,
             "lng": 12.606270
         },
+        "icon": "img/RYTMISK_IKON.svg",
         "svar1": "",
         "svar2": "",
         "svar3": "",
@@ -146,6 +154,7 @@
             "lat": 55.679236,
             "lng": 12.606193
         },
+        "icon": "img/kanonbaadsvej_icon.svg",
         "svar1": "",
         "svar2": "",
         "svar3": "",
@@ -161,6 +170,7 @@
             "lat": 55.678533,
             "lng": 12.600755
         },
+        "icon": "img/kuglegaarden_icon.svg",
         "svar1": "Arsenaløen",
         "svar2": "Dokøen",
         "svar3": "Nyholm",

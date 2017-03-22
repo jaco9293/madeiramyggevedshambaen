@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="627.39" height="405.24" viewBox="0 0 627.39 405.24">
+  <title>kanon_ikon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Lag_1" data-name="Lag 1">
+      <path d="M0,149.3,60.3,0,486.45,118.23l23.3,21.09s0-17.76,43.28-10L586.32,187l-22.2,16.22s16.65,19.29,6.66,70.34h56.6l-.73,83.72-445.39-6,1.11-126.51Z" fill="#464646"/>
+      <rect x="181.64" y="199.3" width="199.76" height="155.79" fill="#613d1c"/>
+      <rect x="334.78" y="256.55" width="291.87" height="98.77" fill="#613d1c"/>
+      <ellipse cx="264.2" cy="348.43" rx="54.38" ry="53.82"/>
+      <circle cx="486.72" cy="316.29" r="88.95"/>
+      <ellipse cx="488.72" cy="317.93" rx="54.38" ry="53.82" fill="#fff"/>
+      <ellipse cx="265.7" cy="350.34" rx="27.19" ry="26.91" fill="#fff"/>
+      <polygon points="65.39 6.73 485.22 121.95 499.43 135.38 472.56 124.44 75.03 15.72 65.39 6.73" fill="#fff"/>
+    </g>
+  </g>
+</svg>

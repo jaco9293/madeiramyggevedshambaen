@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="201" viewBox="0 0 210 201">
+  <title>takkeladsvej_ikon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <polygon points="0 152 44 201 181 201 210 153 0 152" fill="#755d45"/>
+      <polygon points="104 147 104 58 43 147 104 147" fill="#fff"/>
+      <polyline points="113.26 151.82 113 0 108 0 107.63 151.82"/>
+      <path d="M117,2s37,100,1,145l60,1S280,82,117,2Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
