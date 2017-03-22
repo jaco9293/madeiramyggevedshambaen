@@ -8,7 +8,7 @@ function visQuizListe(infoOmQuiz) {
     console.table(infoOmQuiz);
 
     jsonData = infoOmQuiz;
-
+    $(".pokal").show();
     //infoOmQuiz.forEach(visQuiz);
     visQuiz(infoOmQuiz[1]);
 }
@@ -32,12 +32,13 @@ $(".arrow1").on("click", drop);
 
 function drop() {
     console.log("menu drop down");
+
     $(".arrowright").toggleClass("dropdownright");
     $(".arrowleft").toggleClass("dropdownleft");
     $(".dropmenu").slideToggle();
 }
 
-document.getElementById("result").innerHTML = "Hold 4 har " + localStorage.clickcount + " point";
+document.getElementById("result").innerHTML = "- Hold 4 har " + localStorage.clickcount + " point -";
 
 // Menu
 $(".menu_icon").on("click", topmove);
@@ -52,7 +53,7 @@ function drop() {
 function topmove() {
     //console.log("topmove");
     //   e.classList.toggle("top");
-
+    $(".pokal").hide();
     $(".dropmenu").slideToggle();
 
     if ($(".topline").hasClass("top") == false) {
@@ -63,6 +64,7 @@ function topmove() {
         //
         $(".topline").removeClass("top");
         $(".topline").addClass("top-reverse");
+        $(".pokal").show(400);
     }
 
 }

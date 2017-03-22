@@ -1,21 +1,5 @@
 [{
-        "navn": "Skuespilhuset",
-        "billede": "skuespilhuset",
-        "position": {
-            "lat": 55.679126,
-            "lng": 12.594271
-        },
-        "id": "skuespilhuset",
-        "icon": "img/Operaen.svg",
-        "svar1": "",
-        "svar2": "",
-        "svar3": "",
-        "sporgsmal": "",
-        "korrekt": ""
-
-
-}, {
-        "navn": "Operaen",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Operaen</h1>",
 
         "billede": "operaen",
         "position": {
@@ -32,7 +16,7 @@
 
 
 }, {
-        "navn": "Takkeladsvej",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Takkeladsvej</h1>",
         "beskrivelse": "Et billede over den overordnet havn på Holmen tilbage i start 1900 tallet",
         "billede": "takkeladesvej",
         "position": {
@@ -49,7 +33,7 @@
 
 
 }, {
-        "navn": "Batteriet Sixtus",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Batteriet Sixtus</h1>",
 
         "billede": "batterietsixtus",
         "position": {
@@ -65,7 +49,7 @@
         "korrekt": ""
 
 }, {
-        "navn": "Mastekranen",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Mastekranen</h1>",
         "billede": "mastekranen",
         "position": {
             "lat": 55.688167,
@@ -81,7 +65,7 @@
 
 },
     {
-        "navn": "Nyholms Hovedvagt",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Nyholms Hovedvagt</h1>",
         "billede": "nyholmshovedvagt",
         "position": {
             "lat": 55.688828,
@@ -98,7 +82,7 @@
 
 
 }, {
-        "navn": "Statuen",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Mindestøtten For <br> Kaptajn Schrødersee</h1>",
         "billede": "schroedersee",
         "position": {
             "lat": 55.689263,
@@ -115,7 +99,7 @@
 
 
 }, {
-        "navn": "Spanteloftvej",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Spanteloftvej</h1>",
         "billede": "spanteloftsbygningen",
         "position": {
             "lat": 55.687229,
@@ -132,7 +116,7 @@
 
 },
     {
-        "navn": "Rytmisk Musikkonservatorium",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Rytmisk Musikkonservatorium</h1>",
         "billede": "rytmiske",
         "position": {
             "lat": 55.682652,
@@ -148,7 +132,7 @@
 
 
 }, {
-        "navn": "Kanonbådsvej",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Kanonbådsvej</h1>",
         "billede": "kanonbaadsskure",
         "position": {
             "lat": 55.679236,
@@ -164,7 +148,7 @@
 
 
 }, {
-        "navn": "Kuglegården",
+        "navn": "<h1 style=text-align:center;color:#80c574;>Kuglegården</h1>",
         "billede": "kuglegaarden",
         "position": {
             "lat": 55.678533,

@@ -20,7 +20,6 @@
      text-align: center;
      line-height: 10vw;
      font-weight: 2000;
-     margin-top: 12vw;
      color: #343434;
  }
  .start_p {
@@ -28,7 +27,7 @@
      font-size: 3.5vw;
      height: 5vw;
      margin: 5vw;
-     margin-top: 5vw;
+     margin-top: -5vw;
      text-align: center;
      color: #343434;
      border-radius: 5%;
@@ -38,7 +37,7 @@
      font-family: 'roboto';
      font-size: 3.5vw;
      margin-left: 17.5vw;
-     top: 95vw;
+     top: 70vw;
  }
  .knap {
      color: black;
@@ -51,7 +50,7 @@
      border: solid 1px;
      border-radius: 5%;
      position: absolute;
-     top: 110vw;
+     top: 85vw;
      left: 40vw;
      background-color: #80c574;
      color: #343434;
@@ -65,7 +64,7 @@
  .start_logo {
      width: 85vw;
      margin-left: 7vw;
-     margin-top: -10vw;
+     margin-top: -20vw;
  }
  .inputfelt {
      height: 10vw;
@@ -73,7 +72,7 @@
      position: absolute;
      background-color: #e8e7e7;
      left: 35vw;
-     top: 80vw;
+     top: 55vw;
      color: #343434;
      font-size: 10vw;
      text-align: center;
@@ -90,7 +89,7 @@
      position: absolute;
      height: 50px;
      width: 15vw;
-     bottom: 10vw;
+     top: 110vw;
      left: -15vw;
      animation-name: footleft;
      animation-duration: 10s;
@@ -136,7 +135,7 @@
  .footprint_right {
      position: absolute;
      height: 50px;
-     bottom: 0vw;
+     top: 120vw;
      left: -15vw;
      width: 15vw;
      animation-name: footright;
@@ -186,6 +185,8 @@
      font-family: 'roboto';
      font-size: 10vw;
      text-align: center;
+     margin-top: 20vw;
+     color: #343434;
  }
  .quiz_tekst {
      font-family: 'roboto';
@@ -193,6 +194,7 @@
      text-align: center;
      margin-top: 10vw;
      margin-bottom: 10vw;
+     color: #343434;
  }
  h2 {
      font-family: 'roboto';
@@ -208,15 +210,24 @@
  }
  .statisk_tekst {
      font-family: 'roboto';
-     font-size: 4vw;
+     font-size: 5vw;
      line-height: 6vw;
      text-align: center;
  }
  #result {
      font-family: 'roboto';
-     font-size: 4vw;
-     margin-top: -4vw;
+     font-size: 5vw;
+     margin-top: -5.5vw;
      text-align: center;
+ }
+ .pokal {
+     background-image: url(img/pokal_green.svg);
+     background-repeat: no-repeat;
+     position: absolute;
+     width: 25vw;
+     height: 25vw;
+     margin-left: 38vw;
+     margin-top: 15vw;
  }
  /* Navigation */
 
@@ -230,21 +241,21 @@
  }
  .dropmenu .fb {
      position: absolute;
-     top: 140vw;
+     top: 120vw;
      left: 43vw;
      width: 15vw;
      height: 15vw;
  }
  .dropmenu .insta {
      position: absolute;
-     top: 140vw;
+     top: 120vw;
      left: 20vw;
      width: 15vw;
      height: 15vw;
  }
  .dropmenu .mail {
      position: absolute;
-     top: 140vw;
+     top: 120vw;
      left: 65vw;
      width: 15vw;
      height: 15vw;
@@ -257,12 +268,12 @@
      height: 40px;
  }
  .topline {
-     background-color: black;
+     background-color: #343434;
      height: 5px;
      width: 30px;
  }
  .botline {
-     background-color: black;
+     background-color: #343434;
      height: 5px;
      width: 30px;
      position: relative;
@@ -329,16 +340,16 @@
      text-align: center;
      background-image: url(img/green1.svg);
      background-repeat: no-repeat;
-     background-position-y: 42%;
+     background-position-y: 36%;
  }
  .dropmenu a {
      display: inline-block;
      font-size: 7vw;
      font-family: 'roboto';
-     line-height: 0vw;
+     line-height: 5vw;
      text-decoration: none;
-     color: black;
-     margin-top: 33vw;
+     color: #343434;
+     margin-top: 25vw;
      z-index: 2;
  }
  .showmenu {
